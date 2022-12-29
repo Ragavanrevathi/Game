@@ -83,15 +83,19 @@ function change(x) {
 document.querySelector(".hold").addEventListener("click", function () {
   let cp1 = document.querySelector(".player1 .score").textContent;
   let cp2 = document.querySelector(".player2 .score").textContent;
-  cp1 = Number(cp1) + curr;
-  cp2 = Number(cp2) + curr;
+  cp1 = Number(cp1);
+  cp2 = Number(cp2);
   if (pl == "player 1") {
-    document.querySelector(".player1 .score").textContent = cp1;
+    document.querySelector(".player1 .score").textContent = cp1 + curr;
   } else {
-    document.querySelector(".player2 .score").textContent = cp2;
+    document.querySelector(".player2 .score").textContent = cp2 + curr;
   }
 
   curr = 0;
+  cp1 = document.querySelector(".player1 .score").textContent;
+  cp2 = document.querySelector(".player2 .score").textContent;
+  cp1 = Number(cp1);
+  cp2 = Number(cp2);
   changeCurrentScore();
   if (cp1 < 100 && cp2 < 100) {
     if (check(".player1")) {
@@ -102,6 +106,7 @@ document.querySelector(".hold").addEventListener("click", function () {
       pl = "player 1";
     }
   } else {
+    console.log(cp1 + " " + cp2);
     if (pl == "player 1") {
       document.querySelector(".player1 .score").textContent = "Wins";
     } else {
