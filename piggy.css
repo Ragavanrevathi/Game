@@ -70,17 +70,17 @@ div {
 }
 img {
   position: absolute;
-  top: 15rem;
+  top: 50%;
   width: 60px;
 }
 .new {
   top: 1.5rem;
 }
 .dice {
-  top: 25rem;
+   bottom:8rem;
 }
 .hold {
-  top: 29rem;
+  bottom:4rem;
 }
 .current-score {
   font-size: 50px;
