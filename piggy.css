@@ -155,7 +155,7 @@ img {
   cursor: pointer;
   width: 20px;
 }
-.main img:hover {
+.main .close img:hover {
   width: 17px;
 }
 .modal h2 {
