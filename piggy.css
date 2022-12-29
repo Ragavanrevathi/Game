@@ -106,11 +106,11 @@ img {
   transition: 0.4s;
 }
 .dice:hover {
-  top: 25.2rem;
+   bottom: 7.8rem;
   transition: 0.4s;
 }
 .hold:hover {
-  top: 29.2rem;
+  bottom: 3.8rem;
   transition: 0.4s;
 }
 .btnm {
