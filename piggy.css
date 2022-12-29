@@ -194,7 +194,7 @@ img {
 .modal1 {
   position: absolute;
   height: 50vh;
-  width: 70%;
+  width: 50%;
   background-color: whitesmoke;
   color: rgb(67, 61, 61);
   line-height: 40px;
@@ -211,7 +211,7 @@ img {
 .main .player {
   position: absolute;
   top: 1rem;
-  left: 41%;
+  left: 39%;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
